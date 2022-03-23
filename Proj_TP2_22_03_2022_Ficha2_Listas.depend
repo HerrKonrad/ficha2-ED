@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1647951521 source:c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\lista.c
+	"Lista.h"
+
+1647952193 source:c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tipo_Dados.h"
+	"Lista.h"
+
+1647950153 c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\lista.h
+	"Tipo_Dados.h"
+
+1647948131 c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\tipo_dados.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1647949450 source:c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\palavras.c
+	"Tipo_Dados.h"
+
+1648045771 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Tipo_Dados.h"
+	"Lista.h"
+
+1647963270 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\tipo_dados.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1648045458 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.h
+	"Tipo_Dados.h"
+
+1647949450 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\palavras.c
+	"Tipo_Dados.h"
+
+1647964512 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.c
+	"Lista.h"
+
+1647962428 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
