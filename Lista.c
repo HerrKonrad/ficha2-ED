@@ -178,3 +178,4 @@ void libertarElemento(PtrNO E)
     free(E->Info);
     free(E);
 }
+

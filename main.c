@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #include "Tipo_Dados.h"
-#include "Lista.h"
+#include "Lista.c"
 
 int main()
 {
@@ -14,7 +14,6 @@ int main()
 
    int i;
 
-   // testes, remover
     for( i = 0 ; i < 5 ; i++ )
     {
     NO * n1;
@@ -22,6 +21,8 @@ int main()
     lerElemento(n1);
     inserir_elemento_fim(LP, n1);
     }
+
+
     Mostrar_Lista(LP);
     Destruir_Lista(LP);
 

@@ -32,5 +32,6 @@ int Remover_Palavra(Lista *L, char *txt);
 void inserir_elemento_fim(Lista* L, PtrNO E);
 int validar_Elemento(PtrNO E);
 void libertarElemento(PtrNO E);
+int comparar_elementos(PtrNO A, PtrNO B);
 
 #endif // LISTA_H_INCLUDED

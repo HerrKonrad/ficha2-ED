@@ -19,7 +19,7 @@
 1647949450 source:c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\palavras.c
 	"Tipo_Dados.h"
 
-1648045771 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\main.c
+1648047270 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Tipo_Dados.h"
@@ -31,14 +31,15 @@
 	<string.h>
 	<ctype.h>
 
-1648045458 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.h
+1648047262 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.h
 	"Tipo_Dados.h"
 
 1647949450 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\palavras.c
 	"Tipo_Dados.h"
 
-1647964512 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.c
+1648047281 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.c
 	"Lista.h"
+	"utils.h"
 
 1647962428 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.h
 	<stdio.h>
