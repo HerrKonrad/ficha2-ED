@@ -57,11 +57,21 @@ void Mostrar_Contrario_Lista(Lista *L)
 {
     printf("[%s] Ainda nao implementada\n", __FUNCTION__);
 }
-PALAVRA *Pesquisar_Palavra(Lista *L, char *txt)
+PtrNO Pesquisar_Palavra(Lista *L, PtrNO txt)
 {
-    printf("[%s] Ainda nao implementada\n", __FUNCTION__);
+    if(!L || !txt) return NULL;
+    PtrNO aux = L->Inicio;
+    while(aux)
+    {
+        if(comparar_elementos(aux, txt))
+        {
+            return aux;
+        }
+        aux = aux->Prox;
+    }
     return NULL;
 }
+
 void Destruir_Lista(Lista *L)
 {
     if(!L) return;
@@ -177,5 +187,49 @@ void libertarElemento(PtrNO E)
 {
     free(E->Info);
     free(E);
+}
+
+int comparar_elementos(PtrNO A, PtrNO B)
+{
+    return strcmp(A->Info->TEXTO, B->Info->TEXTO);
+}
+
+void inserir_elemento_ordenado(Lista *L, PtrNO ele_novo)
+{
+    if(!L) return;
+
+    int av = 1;
+    PtrNO ant, act;
+
+    if(L->Inicio == NULL)
+    {
+        ele_novo->Prox = NULL;
+        L->Inicio = ele_novo;
+    }
+    else
+    {
+        ant = act = L->Inicio;
+        while(av)
+            if(act==NULL)
+            av = 0;
+        else if(comparar_elementos(act, ele_novo) > 0)
+            av = 0;
+        else
+        {
+            ant = act;
+            act = act->Prox;
+        }
+        if( act == L->Inicio )
+        {
+            ele_novo->Prox = L->Inicio;
+            L->Inicio = ele_novo;
+        }
+        else
+        {
+            ant->Prox = ele_novo;
+            ele_novo->Prox = act;
+        }
+    }
+    L->NEL++;
 }
 

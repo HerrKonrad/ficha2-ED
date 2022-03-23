@@ -2,7 +2,10 @@
 #include <stdlib.h>
 
 #include "Tipo_Dados.h"
-#include "Lista.c"
+#include "Lista.h"
+#include "utils.c"
+
+
 
 int main()
 {
@@ -19,8 +22,18 @@ int main()
     NO * n1;
     n1 = Criar_No();
     lerElemento(n1);
-    inserir_elemento_fim(LP, n1);
+    inserir_elemento_ordenado(LP, n1);
+      if(Pesquisar_Palavra(LP, n1))
+    {
+        printf("Existe");
     }
+    else
+    {
+        printf("nao existe");
+    }
+    }
+    char palavra[50];
+
 
 
     Mostrar_Lista(LP);
