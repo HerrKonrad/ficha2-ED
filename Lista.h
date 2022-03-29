@@ -34,5 +34,10 @@ int validar_Elemento(PtrNO E);
 void libertarElemento(PtrNO E);
 int comparar_elementos(PtrNO A, PtrNO B);
 void inserir_elemento_ordenado(Lista *L,PtrNO ele_novo);
+PtrNO pesquisar_Recursivo(PtrNO c, PtrNO elementoPesquisar);
+PALAVRA * Pertence_Rec(Lista *L, char *txt);
+PALAVRA * Pertence_Rec_Nos(PtrNO P, char *txt);
+int Repetidos(Lista *L);
+Lista *Todos_Repetidos(Lista *L);
 
 #endif // LISTA_H_INCLUDED

@@ -23,14 +23,6 @@ int main()
     n1 = Criar_No();
     lerElemento(n1);
     inserir_elemento_ordenado(LP, n1);
-      if(Pesquisar_Palavra(LP, n1))
-    {
-        printf("Existe");
-    }
-    else
-    {
-        printf("nao existe");
-    }
     }
     char palavra[50];
 

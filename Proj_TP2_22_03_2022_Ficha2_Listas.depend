@@ -19,34 +19,34 @@
 1647949450 source:c:\users\fmorgado\desktop\proj_tp2_22_03_2022_ficha2_listas\palavras.c
 	"Tipo_Dados.h"
 
-1648050588 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\main.c
+1648054547 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\main.c
 	<stdio.h>
 	<stdlib.h>
 	"Tipo_Dados.h"
 	"Lista.h"
 	"utils.c"
 
-1647963270 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\tipo_dados.h
+1648550195 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\tipo_dados.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<ctype.h>
 
-1648050621 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.h
+1648553047 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.h
 	"Tipo_Dados.h"
 
-1647949450 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\palavras.c
+1647953050 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\palavras.c
 	"Tipo_Dados.h"
 
 1648049846 source:c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\lista.c
 	"Lista.h"
 	"utils.h"
 
-1647962428 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.h
+1647966028 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.h
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 
-1647962427 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.c
+1647966027 c:\users\herrk\documents\programação\c\ed\proj_tp2_22_03_2022_ficha2_listas\utils.c
 	"utils.h"
 

@@ -233,3 +233,69 @@ void inserir_elemento_ordenado(Lista *L, PtrNO ele_novo)
     L->NEL++;
 }
 
+PtrNO pesquisar_Recursivo(PtrNO c, PtrNO elementoPesquisar)
+{
+
+}
+
+PALAVRA * Pertence_Rec(Lista *L, char *txt)
+{
+    if(!L) return NULL;
+    return Pertence_Rec_Nos(L->Inicio, txt);
+}
+
+PALAVRA * Pertence_Rec_Nos(PtrNO P, char *txt)
+{
+    if(!P) return NULL;
+    if(stricmp(P->Info->TEXTO, txt) == 0)
+        return P->Info;
+    return Pertence_Rec_Nos(P->Prox, txt);
+
+}
+
+int Repetidos(Lista *L)
+{
+    if(!L) return 0;
+    PtrNO P = L->Inicio; // Elemento que será comparado
+    PtrNO Q = NULL; // Percorredor da lista
+
+    while(P)
+    {
+        Q = P->Prox; // já que não se deve comparar a si mesmo
+        while(Q) // percorre toda a lista em busca do elemento
+        {
+            if(comparar_elementos(Q, P) == 1)
+                return 1;
+            Q = Q->Prox;
+        }
+        P = P->Prox; // vai para o próximo elemento
+    }
+}
+
+Lista *Todos_Repetidos(Lista *L)
+{
+    if(!L) return NULL;
+
+    Lista *lista_elementos = Criar_Lista("PT");
+
+
+    PtrNO Q = NULL; // Percorredor da lista
+
+    for(PtrNO P ; P ; P = P->Prox)
+    {
+        Q = P->Prox; // já que não se deve comparar a si mesmo
+
+        while(Q) // percorre toda a lista em busca do elemento
+        {
+            if(comparar_elementos(Q, P) == 1)
+            {
+                Add_Inicio(lista_elementos, P->Info);
+                break; // para não achar repetidos
+            }
+            Q = Q->Prox;
+        }
+        P = P->Prox; // vai para o próximo elemento
+    }
+    return lista_elementos;
+}
+
